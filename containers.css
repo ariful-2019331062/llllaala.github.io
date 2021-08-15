@@ -1,0 +1,38 @@
+.container {
+    display: grid;
+}
+
+.two-column-container {
+    grid-template-columns: 50% 50%;
+}
+
+.just-rows-container {
+    /* grid-template-columns: 50% 200px; */
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 200px;
+}
+
+.two-by-two-container {
+    grid-template-columns: 50% 200px;
+    grid-template-rows: 100px 100px;
+}
+
+.four-by-one-container {
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100px;
+}
+
+.just-columns-container {
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.unnecessary-columns-container {
+    grid-template-columns: 25% 25% 25% 25% 200px;
+}
+
+.unnecessary-rows-container {
+    /* height: 500px;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px 200px; */
+    grid: 100px 100px / 200px 200px;
+}
